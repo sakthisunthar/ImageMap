@@ -1,5 +1,5 @@
 # Ex03 Places Around Me
-## Date: 
+## Date: 10.12.25
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -26,11 +26,35 @@ Execute the programs and publish them.
 
 ## PROGRAM
 ```
-INCLUDE YOUR PROGRAM HERE
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Map</title>
+    <style>
+        img{
+            display: block;
+            margin: auto;
+            margin-top: 9%;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.google.com/search?q=computer">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.google.com/search?q=phone">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.google.com/search?q=cup+of+coffee">
+    </map>
+</body>
+</html> 
 ```
 
 ## OUTPUT
-
+![alt text](<Screenshot 2025-12-10 114350.png>)![alt text](<Screenshot 2025-12-10 114407.png>)![alt text](<Screenshot 2025-12-10 114427.png>)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
