@@ -54,7 +54,6 @@ Execute the programs and publish them.
 ```
 
 ## OUTPUT
-![alt text](<Screenshot 2025-12-10 114350.png>)![alt text](<Screenshot 2025-12-10 114407.png>)![alt text](<Screenshot 2025-12-10 114427.png>)
-
+Screenshot 2025-12-10 114350.png Screenshot 2025-12-10 114407.png Screenshot 2025-12-10 114427.png
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
